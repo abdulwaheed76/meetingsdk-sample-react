@@ -15,14 +15,14 @@ ZoomMtg.i18n.reload('en-US');
 function App() {
 
   // setup your signature endpoint here: https://github.com/zoom/meetingsdk-sample-signature-node.js
-  var signatureEndpoint = ''
-  var apiKey = ''
-  var meetingNumber = '123456789'
+  var signatureEndpoint = 'http://localhost:4000'
+  var apiKey = 'lQlnnVxzQOq670W-aDa0Mw'
+  var meetingNumber = '88123433918'
   var role = 0
   var leaveUrl = 'http://localhost:3000'
   var userName = 'React'
   var userEmail = ''
-  var passWord = ''
+  var passWord = '5H3DnV' 
   // pass in the registrant's token if your meeting or webinar requires registration. More info here:
   // Meetings: https://marketplace.zoom.us/docs/sdk/native-sdks/web/build/meetings/join#join-registered
   // Webinars: https://marketplace.zoom.us/docs/sdk/native-sdks/web/build/webinars/join#join-registered-webinar
